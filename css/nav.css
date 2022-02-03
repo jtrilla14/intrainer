@@ -1,0 +1,97 @@
+nav {
+  height: 80px;
+  background-color: #525555c2;
+  display: flex;
+  justify-content: space-around;
+}
+
+nav img {
+  width: 65px;
+  
+}
+nav > a{
+  display: flexbox;
+}
+
+nav > #logo-iner {
+  display: flex;
+  align-items: center;
+}
+
+nav > #logo-iner > h1 {
+  font-family: 'Pontano Sans', sans-serif;
+  margin-left: 28px;
+  font-size: 55px;
+  margin: 0;
+  color: #fcf9f9;
+  
+ 
+}
+
+nav > #menu-principal {
+  width: 45%;
+}
+
+nav > #menu-principal > ul  {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 100%;
+}
+
+nav > #menu-principal > ul > li {
+  font-family: 'Pontano Sans', sans-serif;
+  font-size: 21px;
+  color: #f8f5f5;
+  font-weight: 500;
+}
+@media (min-width: 992px) and (max-width: 1199px) {
+  nav > #menu-principal {
+    width: 40%;
+  }
+}
+@media (min-width: 576px) and (max-width: 991px) {
+  nav > #menu-principal {
+    display: none;
+  }
+  nav {
+    justify-content: space-between;
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+}
+@media (max-width: 575px) {
+  nav > #menu-principal {
+    display: none;
+  }
+
+  nav {
+    justify-content: flex-start;
+    padding-left: 20px;
+  }
+}
+
+#sidebar-a {
+  
+  font-family: 'Pontano Sans', sans-serif;
+  font-size: 25px;
+  float : left;
+  width : 290px;
+  margin-left : 5px;
+  padding : 0 5px 0 5px;
+  color : #666;
+  background : #9bbafd;
+  }
+  
+  #sidebar-a >ul {
+    list-style: none;
+    text-align: left; 
+  }
+   
+
+
+
+    

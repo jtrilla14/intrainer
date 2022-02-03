@@ -1,0 +1,26 @@
+header {
+  font-family: 'Pontano Sans', sans-serif;
+  text-align: center;
+  background-color: #ffffff;
+  padding-top: 70px;
+}
+
+  #sidebar-b {
+    font-family: 'Pontano Sans', sans-serif;
+    font-size: 25px;
+    float : right;
+    width : 290px;
+    margin : 0 5px 0 0 ;
+    padding : 0 5px 15px 5px;
+    color : #666;
+    background : #9bbafd;
+    }
+
+    #footer {
+      text-align: center;
+      clear : both;
+      padding : 5px;
+      margin : 0;
+      background : #0c459b;
+      color : #f7f7f7;
+      }
